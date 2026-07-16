@@ -82,11 +82,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "AI Productivity Assistant — Work Smarter with AI" },
       { name: "description", content: "Summarize meetings, research topics, and plan projects — all in one AI-powered workspace." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "AI Productivity Assistant" },
-      { property: "og:description", content: "One AI workspace for meeting summaries, research, and task planning." },
+      { property: "og:title", content: "AI Productivity Assistant — Work Smarter with AI" },
+      { property: "og:description", content: "Summarize meetings, research topics, and plan projects — all in one AI-powered workspace." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "AI Productivity Assistant — Work Smarter with AI" },
+      { name: "twitter:description", content: "Summarize meetings, research topics, and plan projects — all in one AI-powered workspace." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/49ece0a9-7232-4aa7-a443-ff673c61f997/id-preview-7838d2c4--b3be44c5-3581-4695-974d-a86779c542fe.lovable.app-1784222987594.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/49ece0a9-7232-4aa7-a443-ff673c61f997/id-preview-7838d2c4--b3be44c5-3581-4695-974d-a86779c542fe.lovable.app-1784222987594.png" },
     ],
     links: [
       {
