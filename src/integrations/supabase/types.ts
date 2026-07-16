@@ -14,7 +14,126 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      meeting_summaries: {
+        Row: {
+          created_at: string
+          id: string
+          input_text: string
+          summary: string
+          title: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          input_text: string
+          summary: string
+          title: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          input_text?: string
+          summary?: string
+          title?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          full_name: string | null
+          id: string
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          full_name?: string | null
+          id: string
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          full_name?: string | null
+          id?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      research_history: {
+        Row: {
+          created_at: string
+          id: string
+          response: string
+          topic: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          response: string
+          topic: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          response?: string
+          topic?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      tasks: {
+        Row: {
+          ai_plan: string | null
+          completed: boolean
+          created_at: string
+          deadline: string | null
+          description: string | null
+          id: string
+          order_index: number
+          priority: string
+          project_goal: string
+          title: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          ai_plan?: string | null
+          completed?: boolean
+          created_at?: string
+          deadline?: string | null
+          description?: string | null
+          id?: string
+          order_index?: number
+          priority?: string
+          project_goal: string
+          title: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          ai_plan?: string | null
+          completed?: boolean
+          created_at?: string
+          deadline?: string | null
+          description?: string | null
+          id?: string
+          order_index?: number
+          priority?: string
+          project_goal?: string
+          title?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
