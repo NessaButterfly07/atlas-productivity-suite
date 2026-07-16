@@ -1,6 +1,6 @@
-# AURA AI** is a modern, AI-powered web application designed to improve workplace productivity by bringing multiple intelligent tools into one integrated platform. Instead of using separate applications for different tasks, users can access AI-powered productivity features from a single dashboard.**
+# Atlas Productivity Suite** is a modern, AI-powered web application designed to improve workplace productivity by bringing multiple intelligent tools into one integrated platform. Instead of using separate applications for different tasks, users can access AI-powered productivity features from a single dashboard.**
 
-The AURA AI platform helps users summarize meeting notes, conduct AI-assisted research, and create intelligent task plans, making everyday workplace activities faster, more organized, and more efficient.
+The Atlas Productivity Suite platform helps users summarize meeting notes, conduct AI-assisted research, and create intelligent task plans, making everyday workplace activities faster, more organized, and more efficient.
 
 ---
 
